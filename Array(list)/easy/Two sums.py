@@ -10,5 +10,8 @@ class Solution(object):
                    return [i,j]
 
 
-nums = []
-target = 0
+nums = [3,4,5,6,7]
+target = 10
+
+solution = Solution()
+print(solution.twoSum(nums, target))
